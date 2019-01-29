@@ -18,6 +18,20 @@ html, body {
     font-family: Arial, "Maven Pro";
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
 .light-grey {
     color: #424242;
 }
