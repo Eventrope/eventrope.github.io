@@ -33,7 +33,9 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-
+p {
+  text-align: center;
+}
 
 .light-grey {
     color: #424242;
