@@ -26,6 +26,7 @@ table.center {
     border-collapse: collapse;
 }
 td, th {
+  background-color:#737A88
     text-align: left;
     padding: 8px;
 }
