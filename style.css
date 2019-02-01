@@ -23,15 +23,14 @@ table.center {
     margin-right:auto;
     background-color:#737A88
 
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+
 }
 td, th {
     text-align: left;
     padding: 8px;
 }
 tr:nth-child(even) {
-    background-color: #C0C2CC;
+    background-color: #7d888e;
 }
 
 p {
