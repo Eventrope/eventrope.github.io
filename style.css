@@ -1,11 +1,11 @@
 .PIKA {
     text-align: center;
-    font-size: 90px;
+    font-size: 85px;
 }
 
 .PIKA-desc {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /* https://material.io/guidelines/style/color.html#color-themes */
@@ -30,7 +30,7 @@ td, th {
     padding: 8px;
 }
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #C0C2CC;
 }
 
 p {
