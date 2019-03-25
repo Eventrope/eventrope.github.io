@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<html>
+  <head>
+
+  <meta charset="UTF-8">
+            <title>CPSC 583</title>
+            <meta name="description" content="PIKA">
+            <meta name="author" content="MBuhler">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <link rel='stylesheet' href='design1.css'>
+  </head>
+\
+      <body>
+        <table class="menu">
+              <tr>
+                  <th><a href="Design1.html">Design 1</a></th>
+                  <th><a href="Design2.html">Design 2</a></th>
+                  <th><a href="Design3.html">Design 3</a></th>
+              </tr>
+          </table>
+
+
+    <script>
+    let tabulate = function (data,columns) {
+        let table = d3.select('body').append('table');
+        let thead = table.append('thead');
+        let tbody = table.append('tbody');
+
+        //tr - row in a table
+        //th - Header in a table
+        //td - Cell in a table
+        //table
+
+
+        thead.append('tr')
+            .selectAll('th')
+            .data(columns)
+            .enter()
+            .append('th')
+            .text(function (d) { return d });
+
+
+        thead
+            .on("click",console.log("clicked"));
+
+        let rows = tbody.selectAll('tr')
+            .data(data)
+            .enter()
+            .append('tr');
+
+        let cells = rows.selectAll('td')
+            .data(function(row) {
+                return columns.map(function (column) {
+                 //   console.log(row[column]);
+                    return { column: column, value: row[column] }
+
+                })
+            })
+            .enter()
+            .append('td')
+            .text(function (d) { return d.value })
+
+        return table;
+    }
+
+    d3.csv('data2.csv',function (data) {
+        let header = d3.keys(data[0]);
+        console.log(header);
+
+
+       format(data,header,10);
+
+       // tabulate(data,header)
+    });
+
+    d3.csv('developer_Relation.csv',function(data){
+
+    });
+
+    let format = function(data, columns, number){
+
+        columns = columns.slice(0,number);
+
+
+        //grab all values
+        let users = d3.values(data[0]);
+
+        for(let i =1; i<users.length;i++ ){
+            users[i] = parseInt(users[i]);
+        }
+
+        console.log(users);
+      //  console.log(users[0]['Full-stack developer']);
+
+        newArray = d3.values(data);
+
+        let superarray;
+        console.log(newArray);
+       let d= console.log(Object.getOwnPropertyNames(newArray[0]));
+    console.log(d);
+        console.log(newArray[0][columns[1]]);
+
+        for(let j =1; j<columns.length; j++) {
+            for (let i = 0; i < newArray.length; i++) {
+               newArray[i][columns[j]] = Math.round(parseInt(newArray[i][columns[j]])/(users[j])*100);
+            }
+        }
+
+        console.log(newArray);
+
+
+
+
+        tabulate(newArray,columns);
+
+
+
+
+    };
+
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,807 @@
+Developer Type,Language,Percentage
+Full-stack developer,JavaScript,93
+Full-stack developer,HTML,87
+Full-stack developer,CSS,86
+Full-stack developer,SQL,71
+Full-stack developer,C#,45
+Full-stack developer,Bash/Shell,43
+Full-stack developer,Java,35
+Full-stack developer,Python,33
+Full-stack developer,TypeScript,27
+Full-stack developer,PHP,24
+Full-stack developer,Ruby,16
+Full-stack developer,C++,12
+Full-stack developer,C,9
+Full-stack developer,VB.NET,8
+Full-stack developer,Go,7
+Full-stack developer,CoffeeScript,5
+Full-stack developer,Swift,5
+Full-stack developer,Groovy,5
+Full-stack developer,R,4
+Full-stack developer,Scala,4
+Full-stack developer,Perl,3
+Full-stack developer,Objective-C,3
+Full-stack developer,VBA,3
+Full-stack developer,Visual Basic 6,3
+Full-stack developer,Kotlin,2
+Full-stack developer,Lua,2
+Full-stack developer,Assembly,2
+Full-stack developer,Haskell,2
+Full-stack developer,Clojure,2
+Full-stack developer,Matlab,2
+Full-stack developer,F#,2
+Full-stack developer,Rust,2
+Full-stack developer,Delphi/Object Pascal,1
+Full-stack developer,Erlang,1
+Full-stack developer,Ocaml,1
+Full-stack developer,Cobol,1
+Full-stack developer,Hack,0
+Full-stack developer,Julia,0
+Front-end developer,JavaScript,96
+Front-end developer,HTML,92
+Front-end developer,CSS,93
+Front-end developer,SQL,30
+Front-end developer,C#,16
+Front-end developer,Bash/Shell,36
+Front-end developer,Java,20
+Front-end developer,Python,20
+Front-end developer,TypeScript,26
+Front-end developer,PHP,26
+Front-end developer,Ruby,11
+Front-end developer,C++,5
+Front-end developer,C,4
+Front-end developer,VB.NET,2
+Front-end developer,Go,3
+Front-end developer,CoffeeScript,4
+Front-end developer,Swift,3
+Front-end developer,Groovy,1
+Front-end developer,R,2
+Front-end developer,Scala,1
+Front-end developer,Perl,2
+Front-end developer,Objective-C,1
+Front-end developer,VBA,1
+Front-end developer,Visual Basic 6,1
+Front-end developer,Kotlin,1
+Front-end developer,Lua,1
+Front-end developer,Assembly,1
+Front-end developer,Haskell,1
+Front-end developer,Clojure,1
+Front-end developer,Matlab,1
+Front-end developer,F#,1
+Front-end developer,Rust,1
+Front-end developer,Delphi/Object Pascal,1
+Front-end developer,Erlang,0
+Front-end developer,Ocaml,0
+Front-end developer,Cobol,0
+Front-end developer,Hack,0
+Front-end developer,Julia,0
+Back-end developer,JavaScript,53
+Back-end developer,HTML,42
+Back-end developer,CSS,37
+Back-end developer,SQL,55
+Back-end developer,C#,26
+Back-end developer,Bash/Shell,50
+Back-end developer,Java,50
+Back-end developer,Python,48
+Back-end developer,TypeScript,8
+Back-end developer,PHP,13
+Back-end developer,Ruby,14
+Back-end developer,C++,24
+Back-end developer,C,19
+Back-end developer,VB.NET,3
+Back-end developer,Go,16
+Back-end developer,CoffeeScript,3
+Back-end developer,Swift,3
+Back-end developer,Groovy,7
+Back-end developer,R,4
+Back-end developer,Scala,13
+Back-end developer,Perl,6
+Back-end developer,Objective-C,2
+Back-end developer,VBA,1
+Back-end developer,Visual Basic 6,1
+Back-end developer,Kotlin,3
+Back-end developer,Lua,4
+Back-end developer,Assembly,6
+Back-end developer,Haskell,3
+Back-end developer,Clojure,3
+Back-end developer,Matlab,2
+Back-end developer,F#,2
+Back-end developer,Rust,5
+Back-end developer,Delphi/Object Pascal,0
+Back-end developer,Erlang,2
+Back-end developer,Ocaml,1
+Back-end developer,Cobol,0
+Back-end developer,Hack,0
+Back-end developer,Julia,0
+Mobile developer,JavaScript,40
+Mobile developer,HTML,31
+Mobile developer,CSS,30
+Mobile developer,SQL,20
+Mobile developer,C#,14
+Mobile developer,Bash/Shell,31
+Mobile developer,Java,57
+Mobile developer,Python,26
+Mobile developer,TypeScript,6
+Mobile developer,PHP,8
+Mobile developer,Ruby,13
+Mobile developer,C++,14
+Mobile developer,C,14
+Mobile developer,VB.NET,0
+Mobile developer,Go,3
+Mobile developer,CoffeeScript,2
+Mobile developer,Swift,63
+Mobile developer,Groovy,8
+Mobile developer,R,0
+Mobile developer,Scala,1
+Mobile developer,Perl,1
+Mobile developer,Objective-C,59
+Mobile developer,VBA,0
+Mobile developer,Visual Basic 6,0
+Mobile developer,Kotlin,24
+Mobile developer,Lua,1
+Mobile developer,Assembly,2
+Mobile developer,Haskell,1
+Mobile developer,Clojure,1
+Mobile developer,Matlab,1
+Mobile developer,F#,1
+Mobile developer,Rust,0
+Mobile developer,Delphi/Object Pascal,0
+Mobile developer,Erlang,0
+Mobile developer,Ocaml,1
+Mobile developer,Cobol,0
+Mobile developer,Hack,1
+Mobile developer,Julia,0
+Student,JavaScript,52
+Student,HTML,55
+Student,CSS,49
+Student,SQL,23
+Student,C#,21
+Student,Bash/Shell,36
+Student,Java,57
+Student,Python,66
+Student,TypeScript,3
+Student,PHP,13
+Student,Ruby,7
+Student,C++,39
+Student,C,37
+Student,VB.NET,2
+Student,Go,3
+Student,CoffeeScript,1
+Student,Swift,7
+Student,Groovy,1
+Student,R,9
+Student,Scala,3
+Student,Perl,1
+Student,Objective-C,3
+Student,VBA,4
+Student,Visual Basic 6,2
+Student,Kotlin,3
+Student,Lua,7
+Student,Assembly,16
+Student,Haskell,7
+Student,Clojure,2
+Student,Matlab,12
+Student,F#,1
+Student,Rust,6
+Student,Delphi/Object Pascal,1
+Student,Erlang,1
+Student,Ocaml,1
+Student,Cobol,0
+Student,Hack,0
+Student,Julia,1
+System administrator,JavaScript,40
+System administrator,HTML,53
+System administrator,CSS,41
+System administrator,SQL,37
+System administrator,C#,26
+System administrator,Bash/Shell,64
+System administrator,Java,30
+System administrator,Python,57
+System administrator,TypeScript,4
+System administrator,PHP,26
+System administrator,Ruby,17
+System administrator,C++,11
+System administrator,C,13
+System administrator,VB.NET,9
+System administrator,Go,11
+System administrator,CoffeeScript,1
+System administrator,Swift,4
+System administrator,Groovy,4
+System administrator,R,7
+System administrator,Scala,1
+System administrator,Perl,21
+System administrator,Objective-C,1
+System administrator,VBA,9
+System administrator,Visual Basic 6,6
+System administrator,Kotlin,0
+System administrator,Lua,1
+System administrator,Assembly,10
+System administrator,Haskell,3
+System administrator,Clojure,0
+System administrator,Matlab,3
+System administrator,F#,0
+System administrator,Rust,4
+System administrator,Delphi/Object Pascal,1
+System administrator,Erlang,1
+System administrator,Ocaml,1
+System administrator,Cobol,0
+System administrator,Hack,0
+System administrator,Julia,0
+System administrator,DevNumbers,70
+"C-suite executive (CEO, CTO, etc.)",JavaScript,78
+"C-suite executive (CEO, CTO, etc.)",HTML,71
+"C-suite executive (CEO, CTO, etc.)",CSS,73
+"C-suite executive (CEO, CTO, etc.)",SQL,64
+"C-suite executive (CEO, CTO, etc.)",C#,32
+"C-suite executive (CEO, CTO, etc.)",Bash/Shell,50
+"C-suite executive (CEO, CTO, etc.)",Java,30
+"C-suite executive (CEO, CTO, etc.)",Python,48
+"C-suite executive (CEO, CTO, etc.)",TypeScript,15
+"C-suite executive (CEO, CTO, etc.)",PHP,25
+"C-suite executive (CEO, CTO, etc.)",Ruby,18
+"C-suite executive (CEO, CTO, etc.)",C++,20
+"C-suite executive (CEO, CTO, etc.)",C,19
+"C-suite executive (CEO, CTO, etc.)",VB.NET,3
+"C-suite executive (CEO, CTO, etc.)",Go,13
+"C-suite executive (CEO, CTO, etc.)",CoffeeScript,5
+"C-suite executive (CEO, CTO, etc.)",Swift,11
+"C-suite executive (CEO, CTO, etc.)",Groovy,2
+"C-suite executive (CEO, CTO, etc.)",R,9
+"C-suite executive (CEO, CTO, etc.)",Scala,3
+"C-suite executive (CEO, CTO, etc.)",Perl,5
+"C-suite executive (CEO, CTO, etc.)",Objective-C,10
+"C-suite executive (CEO, CTO, etc.)",VBA,2
+"C-suite executive (CEO, CTO, etc.)",Visual Basic 6,1
+"C-suite executive (CEO, CTO, etc.)",Kotlin,1
+"C-suite executive (CEO, CTO, etc.)",Lua,3
+"C-suite executive (CEO, CTO, etc.)",Assembly,4
+"C-suite executive (CEO, CTO, etc.)",Haskell,1
+"C-suite executive (CEO, CTO, etc.)",Clojure,1
+"C-suite executive (CEO, CTO, etc.)",Matlab,5
+"C-suite executive (CEO, CTO, etc.)",F#,3
+"C-suite executive (CEO, CTO, etc.)",Rust,7
+"C-suite executive (CEO, CTO, etc.)",Delphi/Object Pascal,1
+"C-suite executive (CEO, CTO, etc.)",Erlang,1
+"C-suite executive (CEO, CTO, etc.)",Ocaml,0
+"C-suite executive (CEO, CTO, etc.)",Cobol,1
+"C-suite executive (CEO, CTO, etc.)",Hack,0
+"C-suite executive (CEO, CTO, etc.)",Julia,2
+"C-suite executive (CEO, CTO, etc.)",DevNumbers,96
+Data scientist or machine learning specialist,JavaScript,25
+Data scientist or machine learning specialist,HTML,32
+Data scientist or machine learning specialist,CSS,27
+Data scientist or machine learning specialist,SQL,60
+Data scientist or machine learning specialist,C#,7
+Data scientist or machine learning specialist,Bash/Shell,54
+Data scientist or machine learning specialist,Java,29
+Data scientist or machine learning specialist,Python,86
+Data scientist or machine learning specialist,TypeScript,1
+Data scientist or machine learning specialist,PHP,4
+Data scientist or machine learning specialist,Ruby,3
+Data scientist or machine learning specialist,C++,21
+Data scientist or machine learning specialist,C,15
+Data scientist or machine learning specialist,VB.NET,2
+Data scientist or machine learning specialist,Go,8
+Data scientist or machine learning specialist,CoffeeScript,2
+Data scientist or machine learning specialist,Swift,2
+Data scientist or machine learning specialist,Groovy,3
+Data scientist or machine learning specialist,R,56
+Data scientist or machine learning specialist,Scala,19
+Data scientist or machine learning specialist,Perl,4
+Data scientist or machine learning specialist,Objective-C,1
+Data scientist or machine learning specialist,VBA,6
+Data scientist or machine learning specialist,Visual Basic 6,0
+Data scientist or machine learning specialist,Kotlin,0
+Data scientist or machine learning specialist,Lua,2
+Data scientist or machine learning specialist,Assembly,5
+Data scientist or machine learning specialist,Haskell,3
+Data scientist or machine learning specialist,Clojure,2
+Data scientist or machine learning specialist,Matlab,11
+Data scientist or machine learning specialist,F#,0
+Data scientist or machine learning specialist,Rust,4
+Data scientist or machine learning specialist,Delphi/Object Pascal,0
+Data scientist or machine learning specialist,Erlang,1
+Data scientist or machine learning specialist,Ocaml,0
+Data scientist or machine learning specialist,Cobol,0
+Data scientist or machine learning specialist,Hack,0
+Data scientist or machine learning specialist,Julia,4
+Data or business analyst,JavaScript,27
+Data or business analyst,HTML,36
+Data or business analyst,CSS,30
+Data or business analyst,SQL,79
+Data or business analyst,C#,16
+Data or business analyst,Bash/Shell,30
+Data or business analyst,Java,19
+Data or business analyst,Python,58
+Data or business analyst,TypeScript,1
+Data or business analyst,PHP,6
+Data or business analyst,Ruby,4
+Data or business analyst,C++,11
+Data or business analyst,C,6
+Data or business analyst,VB.NET,3
+Data or business analyst,Go,2
+Data or business analyst,CoffeeScript,1
+Data or business analyst,Swift,1
+Data or business analyst,Groovy,0
+Data or business analyst,R,45
+Data or business analyst,Scala,3
+Data or business analyst,Perl,6
+Data or business analyst,Objective-C,1
+Data or business analyst,VBA,33
+Data or business analyst,Visual Basic 6,5
+Data or business analyst,Kotlin,0
+Data or business analyst,Lua,2
+Data or business analyst,Assembly,3
+Data or business analyst,Haskell,1
+Data or business analyst,Clojure,1
+Data or business analyst,Matlab,5
+Data or business analyst,F#,1
+Data or business analyst,Rust,0
+Data or business analyst,Delphi/Object Pascal,0
+Data or business analyst,Erlang,0
+Data or business analyst,Ocaml,0
+Data or business analyst,Cobol,3
+Data or business analyst,Hack,0
+Data or business analyst,Julia,1
+DevOps specialist,JavaScript,63
+DevOps specialist,HTML,51
+DevOps specialist,CSS,46
+DevOps specialist,SQL,59
+DevOps specialist,C#,23
+DevOps specialist,Bash/Shell,81
+DevOps specialist,Java,40
+DevOps specialist,Python,68
+DevOps specialist,TypeScript,9
+DevOps specialist,PHP,20
+DevOps specialist,Ruby,35
+DevOps specialist,C++,13
+DevOps specialist,C,17
+DevOps specialist,VB.NET,3
+DevOps specialist,Go,27
+DevOps specialist,CoffeeScript,2
+DevOps specialist,Swift,2
+DevOps specialist,Groovy,19
+DevOps specialist,R,5
+DevOps specialist,Scala,3
+DevOps specialist,Perl,18
+DevOps specialist,Objective-C,3
+DevOps specialist,VBA,2
+DevOps specialist,Visual Basic 6,2
+DevOps specialist,Kotlin,3
+DevOps specialist,Lua,4
+DevOps specialist,Assembly,2
+DevOps specialist,Haskell,2
+DevOps specialist,Clojure,3
+DevOps specialist,Matlab,2
+DevOps specialist,F#,0
+DevOps specialist,Rust,2
+DevOps specialist,Delphi/Object Pascal,1
+DevOps specialist,Erlang,4
+DevOps specialist,Ocaml,0
+DevOps specialist,Cobol,1
+DevOps specialist,Hack,0
+DevOps specialist,Julia,0
+Game or graphics developer,JavaScript,36
+Game or graphics developer,HTML,36
+Game or graphics developer,CSS,31
+Game or graphics developer,SQL,16
+Game or graphics developer,C#,47
+Game or graphics developer,Bash/Shell,22
+Game or graphics developer,Java,29
+Game or graphics developer,Python,47
+Game or graphics developer,TypeScript,0
+Game or graphics developer,PHP,9
+Game or graphics developer,Ruby,4
+Game or graphics developer,C++,64
+Game or graphics developer,C,49
+Game or graphics developer,VB.NET,0
+Game or graphics developer,Go,2
+Game or graphics developer,CoffeeScript,0
+Game or graphics developer,Swift,9
+Game or graphics developer,Groovy,0
+Game or graphics developer,R,2
+Game or graphics developer,Scala,2
+Game or graphics developer,Perl,9
+Game or graphics developer,Objective-C,9
+Game or graphics developer,VBA,0
+Game or graphics developer,Visual Basic 6,0
+Game or graphics developer,Kotlin,0
+Game or graphics developer,Lua,13
+Game or graphics developer,Assembly,11
+Game or graphics developer,Haskell,0
+Game or graphics developer,Clojure,0
+Game or graphics developer,Matlab,4
+Game or graphics developer,F#,0
+Game or graphics developer,Rust,7
+Game or graphics developer,Delphi/Object Pascal,0
+Game or graphics developer,Erlang,2
+Game or graphics developer,Ocaml,0
+Game or graphics developer,Cobol,0
+Game or graphics developer,Hack,0
+Game or graphics developer,Julia,0
+Game or graphics developer,DevNumbers,45
+Embedded applications or devices developer,JavaScript,28
+Embedded applications or devices developer,HTML,26
+Embedded applications or devices developer,CSS,20
+Embedded applications or devices developer,SQL,18
+Embedded applications or devices developer,C#,21
+Embedded applications or devices developer,Bash/Shell,62
+Embedded applications or devices developer,Java,23
+Embedded applications or devices developer,Python,74
+Embedded applications or devices developer,TypeScript,2
+Embedded applications or devices developer,PHP,9
+Embedded applications or devices developer,Ruby,7
+Embedded applications or devices developer,C++,71
+Embedded applications or devices developer,C,87
+Embedded applications or devices developer,VB.NET,2
+Embedded applications or devices developer,Go,5
+Embedded applications or devices developer,CoffeeScript,1
+Embedded applications or devices developer,Swift,5
+Embedded applications or devices developer,Groovy,1
+Embedded applications or devices developer,R,0
+Embedded applications or devices developer,Scala,0
+Embedded applications or devices developer,Perl,7
+Embedded applications or devices developer,Objective-C,6
+Embedded applications or devices developer,VBA,1
+Embedded applications or devices developer,Visual Basic 6,4
+Embedded applications or devices developer,Kotlin,0
+Embedded applications or devices developer,Lua,7
+Embedded applications or devices developer,Assembly,39
+Embedded applications or devices developer,Haskell,2
+Embedded applications or devices developer,Clojure,0
+Embedded applications or devices developer,Matlab,18
+Embedded applications or devices developer,F#,0
+Embedded applications or devices developer,Rust,6
+Embedded applications or devices developer,Delphi/Object Pascal,1
+Embedded applications or devices developer,Erlang,1
+Embedded applications or devices developer,Ocaml,0
+Embedded applications or devices developer,Cobol,0
+Embedded applications or devices developer,Hack,0
+Embedded applications or devices developer,Julia,2
+Product manager,JavaScript,68
+Product manager,HTML,61
+Product manager,CSS,59
+Product manager,SQL,63
+Product manager,C#,27
+Product manager,Bash/Shell,29
+Product manager,Java,24
+Product manager,Python,54
+Product manager,TypeScript,0
+Product manager,PHP,10
+Product manager,Ruby,22
+Product manager,C++,20
+Product manager,C,10
+Product manager,VB.NET,5
+Product manager,Go,5
+Product manager,CoffeeScript,0
+Product manager,Swift,12
+Product manager,Groovy,0
+Product manager,R,17
+Product manager,Scala,5
+Product manager,Perl,2
+Product manager,Objective-C,10
+Product manager,VBA,12
+Product manager,Visual Basic 6,5
+Product manager,Kotlin,0
+Product manager,Lua,0
+Product manager,Assembly,5
+Product manager,Haskell,2
+Product manager,Clojure,0
+Product manager,Matlab,0
+Product manager,F#,0
+Product manager,Rust,0
+Product manager,Delphi/Object Pascal,0
+Product manager,Erlang,2
+Product manager,Ocaml,0
+Product manager,Cobol,0
+Product manager,Hack,0
+Product manager,Julia,0
+Product manager,DevNumbers,41
+Designer,JavaScript,44
+Designer,HTML,44
+Designer,CSS,44
+Designer,SQL,17
+Designer,C#,22
+Designer,Bash/Shell,39
+Designer,Java,33
+Designer,Python,44
+Designer,TypeScript,0
+Designer,PHP,11
+Designer,Ruby,0
+Designer,C++,39
+Designer,C,50
+Designer,VB.NET,0
+Designer,Go,11
+Designer,CoffeeScript,22
+Designer,Swift,0
+Designer,Groovy,6
+Designer,R,0
+Designer,Scala,6
+Designer,Perl,11
+Designer,Objective-C,6
+Designer,VBA,0
+Designer,Visual Basic 6,11
+Designer,Kotlin,0
+Designer,Lua,0
+Designer,Assembly,22
+Designer,Haskell,6
+Designer,Clojure,6
+Designer,Matlab,22
+Designer,F#,6
+Designer,Rust,0
+Designer,Delphi/Object Pascal,0
+Designer,Erlang,6
+Designer,Ocaml,0
+Designer,Cobol,0
+Designer,Hack,6
+Designer,Julia,0
+Designer,DevNumbers,18
+Desktop or enterprise applications developer,JavaScript,42
+Desktop or enterprise applications developer,HTML,35
+Desktop or enterprise applications developer,CSS,28
+Desktop or enterprise applications developer,SQL,35
+Desktop or enterprise applications developer,C#,55
+Desktop or enterprise applications developer,Bash/Shell,34
+Desktop or enterprise applications developer,Java,24
+Desktop or enterprise applications developer,Python,38
+Desktop or enterprise applications developer,TypeScript,9
+Desktop or enterprise applications developer,PHP,4
+Desktop or enterprise applications developer,Ruby,6
+Desktop or enterprise applications developer,C++,50
+Desktop or enterprise applications developer,C,30
+Desktop or enterprise applications developer,VB.NET,8
+Desktop or enterprise applications developer,Go,3
+Desktop or enterprise applications developer,CoffeeScript,1
+Desktop or enterprise applications developer,Swift,6
+Desktop or enterprise applications developer,Groovy,2
+Desktop or enterprise applications developer,R,5
+Desktop or enterprise applications developer,Scala,2
+Desktop or enterprise applications developer,Perl,7
+Desktop or enterprise applications developer,Objective-C,7
+Desktop or enterprise applications developer,VBA,9
+Desktop or enterprise applications developer,Visual Basic 6,4
+Desktop or enterprise applications developer,Kotlin,1
+Desktop or enterprise applications developer,Lua,4
+Desktop or enterprise applications developer,Assembly,6
+Desktop or enterprise applications developer,Haskell,1
+Desktop or enterprise applications developer,Clojure,1
+Desktop or enterprise applications developer,Matlab,6
+Desktop or enterprise applications developer,F#,2
+Desktop or enterprise applications developer,Rust,2
+Desktop or enterprise applications developer,Delphi/Object Pascal,7
+Desktop or enterprise applications developer,Erlang,1
+Desktop or enterprise applications developer,Ocaml,0
+Desktop or enterprise applications developer,Cobol,0
+Desktop or enterprise applications developer,Hack,0
+Desktop or enterprise applications developer,Julia,2
+Engineering manager,JavaScript,69
+Engineering manager,HTML,61
+Engineering manager,CSS,58
+Engineering manager,SQL,61
+Engineering manager,C#,35
+Engineering manager,Bash/Shell,53
+Engineering manager,Java,44
+Engineering manager,Python,39
+Engineering manager,TypeScript,15
+Engineering manager,PHP,15
+Engineering manager,Ruby,21
+Engineering manager,C++,20
+Engineering manager,C,17
+Engineering manager,VB.NET,6
+Engineering manager,Go,18
+Engineering manager,CoffeeScript,9
+Engineering manager,Swift,7
+Engineering manager,Groovy,4
+Engineering manager,R,9
+Engineering manager,Scala,11
+Engineering manager,Perl,6
+Engineering manager,Objective-C,6
+Engineering manager,VBA,3
+Engineering manager,Visual Basic 6,5
+Engineering manager,Kotlin,3
+Engineering manager,Lua,1
+Engineering manager,Assembly,4
+Engineering manager,Haskell,0
+Engineering manager,Clojure,1
+Engineering manager,Matlab,4
+Engineering manager,F#,1
+Engineering manager,Rust,4
+Engineering manager,Delphi/Object Pascal,1
+Engineering manager,Erlang,1
+Engineering manager,Ocaml,0
+Engineering manager,Cobol,0
+Engineering manager,Hack,0
+Engineering manager,Julia,0
+Marketing or sales professional,JavaScript,56
+Marketing or sales professional,HTML,81
+Marketing or sales professional,CSS,69
+Marketing or sales professional,SQL,56
+Marketing or sales professional,C#,31
+Marketing or sales professional,Bash/Shell,38
+Marketing or sales professional,Java,31
+Marketing or sales professional,Python,69
+Marketing or sales professional,TypeScript,13
+Marketing or sales professional,PHP,31
+Marketing or sales professional,Ruby,31
+Marketing or sales professional,C++,13
+Marketing or sales professional,C,6
+Marketing or sales professional,VB.NET,6
+Marketing or sales professional,Go,6
+Marketing or sales professional,CoffeeScript,0
+Marketing or sales professional,Swift,0
+Marketing or sales professional,Groovy,0
+Marketing or sales professional,R,19
+Marketing or sales professional,Scala,0
+Marketing or sales professional,Perl,6
+Marketing or sales professional,Objective-C,0
+Marketing or sales professional,VBA,6
+Marketing or sales professional,Visual Basic 6,0
+Marketing or sales professional,Kotlin,0
+Marketing or sales professional,Lua,6
+Marketing or sales professional,Assembly,0
+Marketing or sales professional,Haskell,0
+Marketing or sales professional,Clojure,0
+Marketing or sales professional,Matlab,0
+Marketing or sales professional,F#,0
+Marketing or sales professional,Rust,0
+Marketing or sales professional,Delphi/Object Pascal,6
+Marketing or sales professional,Erlang,0
+Marketing or sales professional,Ocaml,0
+Marketing or sales professional,Cobol,0
+Marketing or sales professional,Hack,0
+Marketing or sales professional,Julia,0
+Marketing or sales professional,DevNumbers,16
+QA or test developer,JavaScript,55
+QA or test developer,HTML,51
+QA or test developer,CSS,40
+QA or test developer,SQL,48
+QA or test developer,C#,32
+QA or test developer,Bash/Shell,49
+QA or test developer,Java,48
+QA or test developer,Python,50
+QA or test developer,TypeScript,6
+QA or test developer,PHP,12
+QA or test developer,Ruby,12
+QA or test developer,C++,12
+QA or test developer,C,9
+QA or test developer,VB.NET,3
+QA or test developer,Go,4
+QA or test developer,CoffeeScript,4
+QA or test developer,Swift,8
+QA or test developer,Groovy,7
+QA or test developer,R,7
+QA or test developer,Scala,1
+QA or test developer,Perl,5
+QA or test developer,Objective-C,2
+QA or test developer,VBA,5
+QA or test developer,Visual Basic 6,3
+QA or test developer,Kotlin,1
+QA or test developer,Lua,1
+QA or test developer,Assembly,3
+QA or test developer,Haskell,2
+QA or test developer,Clojure,0
+QA or test developer,Matlab,3
+QA or test developer,F#,1
+QA or test developer,Rust,1
+QA or test developer,Delphi/Object Pascal,1
+QA or test developer,Erlang,1
+QA or test developer,Ocaml,0
+QA or test developer,Cobol,0
+QA or test developer,Hack,0
+QA or test developer,Julia,0
+Educator or academic researcher,JavaScript,29
+Educator or academic researcher,HTML,41
+Educator or academic researcher,CSS,37
+Educator or academic researcher,SQL,25
+Educator or academic researcher,C#,11
+Educator or academic researcher,Bash/Shell,52
+Educator or academic researcher,Java,19
+Educator or academic researcher,Python,68
+Educator or academic researcher,TypeScript,3
+Educator or academic researcher,PHP,11
+Educator or academic researcher,Ruby,8
+Educator or academic researcher,C++,30
+Educator or academic researcher,C,30
+Educator or academic researcher,VB.NET,0
+Educator or academic researcher,Go,5
+Educator or academic researcher,CoffeeScript,0
+Educator or academic researcher,Swift,8
+Educator or academic researcher,Groovy,0
+Educator or academic researcher,R,32
+Educator or academic researcher,Scala,0
+Educator or academic researcher,Perl,5
+Educator or academic researcher,Objective-C,3
+Educator or academic researcher,VBA,2
+Educator or academic researcher,Visual Basic 6,0
+Educator or academic researcher,Kotlin,3
+Educator or academic researcher,Lua,0
+Educator or academic researcher,Assembly,8
+Educator or academic researcher,Haskell,5
+Educator or academic researcher,Clojure,3
+Educator or academic researcher,Matlab,21
+Educator or academic researcher,F#,0
+Educator or academic researcher,Rust,3
+Educator or academic researcher,Delphi/Object Pascal,2
+Educator or academic researcher,Erlang,2
+Educator or academic researcher,Ocaml,6
+Educator or academic researcher,Cobol,0
+Educator or academic researcher,Hack,0
+Educator or academic researcher,Julia,6
+Educator or academic researcher,DevNumbers,63
+Database administrator,JavaScript,36
+Database administrator,HTML,46
+Database administrator,CSS,29
+Database administrator,SQL,89
+Database administrator,C#,36
+Database administrator,Bash/Shell,46
+Database administrator,Java,11
+Database administrator,Python,32
+Database administrator,TypeScript,4
+Database administrator,PHP,18
+Database administrator,Ruby,0
+Database administrator,C++,14
+Database administrator,C,7
+Database administrator,VB.NET,4
+Database administrator,Go,0
+Database administrator,CoffeeScript,0
+Database administrator,Swift,0
+Database administrator,Groovy,4
+Database administrator,R,11
+Database administrator,Scala,4
+Database administrator,Perl,11
+Database administrator,Objective-C,0
+Database administrator,VBA,14
+Database administrator,Visual Basic 6,0
+Database administrator,Kotlin,0
+Database administrator,Lua,0
+Database administrator,Assembly,4
+Database administrator,Haskell,0
+Database administrator,Clojure,0
+Database administrator,Matlab,0
+Database administrator,F#,0
+Database administrator,Rust,0
+Database administrator,Delphi/Object Pascal,4
+Database administrator,Erlang,0
+Database administrator,Ocaml,0
+Database administrator,Cobol,0
+Database administrator,Hack,0
+Database administrator,Julia,0
+Database administrator,DevNumbers,28
+All Developers,JavaScript,65
+All Developers,HTML,60
+All Developers,CSS,57
+All Developers,SQL,50
+All Developers,C#,29
+All Developers,Bash/Shell,44
+All Developers,Java,39
+All Developers,Python,44
+All Developers,TypeScript,14
+All Developers,PHP,17
+All Developers,Ruby,13
+All Developers,C++,21
+All Developers,C,18
+All Developers,VB.NET,4
+All Developers,Go,8
+All Developers,CoffeeScript,3
+All Developers,Swift,9
+All Developers,Groovy,5
+All Developers,R,8
+All Developers,Scala,5
+All Developers,Perl,4
+All Developers,Objective-C,7
+All Developers,VBA,4
+All Developers,Visual Basic 6,2
+All Developers,Kotlin,4
+All Developers,Lua,3
+All Developers,Assembly,6
+All Developers,Haskell,2
+All Developers,Clojure,2
+All Developers,Matlab,4
+All Developers,F#,1
+All Developers,Rust,3
+All Developers,Delphi/Object Pascal,1
+All Developers,Erlang,1
+All Developers,Ocaml,1
+All Developers,Cobol,0
+All Developers,Hack,0
+All Developers,Julia,1

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+text{
+	font-size:12px;
+}
+.mainBars rect{
+  shape-rendering: auto;
+  fill-opacity: 0;
+  stroke-width: 0.5px;
+  stroke: rgb(0, 0, 0);
+  stroke-opacity: 0;
+}
+.subBars{
+	shape-rendering:crispEdges;
+}
+.edges{
+	stroke:none;
+	fill-opacity:0.5;
+}
+.header{
+	text-anchor:middle;
+	font-size:16px;
+}
+line{
+	stroke:grey;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
+<script>
+
+let data2;
+d3.csv('data2.csv',function (data) {
+                data2 = convert(data);
+                console.log(data2);
+                generateGraph(data2);
+               })
+
+               ;
+
+
+
+function convert(data){
+        let header = d3.keys(data[0]);
+
+        let newArray = d3.values(data);
+
+        let users = d3.values(data[0]);
+
+        for(let i =1; i<users.length;i++ ){
+        users[i] = parseInt(users[i]);
+        }
+
+
+        let count = 0;
+        let names = Object.getOwnPropertyNames(newArray[0]); //get string names
+
+
+        let size1 = newArray.length -1
+        let size2 = header.length - 2;
+        let size3 = size1 * size2;
+        let dataArray = new Array(size3) ;
+
+        for (let i = 0; i <dataArray.length ; i++) {
+            dataArray[i] = new Array(4);
+         }
+
+        console.log(dataArray.length);
+
+        console.log(header.length, newArray.length);
+        for(let j =1; j<header.length-1; j++) {
+                        for (let i = 1; i < newArray.length; i++) {
+                          //  console.log(names[j]);
+                            //console.log(count);
+                            dataArray[count][0] = names[j];//Developer type
+                            dataArray[count][1] = newArray[i]['Magic row'];//type of language
+                            dataArray[count][2] = parseInt(newArray[i][header[j]]); //value of devs
+                            dataArray[count][3] = Math.round(parseInt(newArray[i][header[j]])/(users[j])*100) //percent each is used
+                            count++;
+                        }
+                           // newArray[i][columns[j]] = Math.round(parseInt(newArray[i][columns[j]])/(users[j])*100);
+        }
+
+ //console.log(dataArray);
+        return dataArray;
+/*
+        for(let j =1; j<columns.length; j++) {
+                for (let i = 0; i < newArray.length; i++) {
+                   newArray[i][columns[j]] = Math.round(parseInt(newArray[i][columns[j]])/(users[j])*100);
+                }
+            }
+*/
+
+
+}
+
+
+/*
+0: "Magic row"
+1: "Full-stack developer"
+2: "Front-end developer"
+3: "Back-end developer"
+4: "Mobile developer"
+5: "Student"
+6: "System administrator"
+7: "C-suite executive (CEO, CTO, etc.)"
+8: "Data scientist or machine learning specialist"
+9: "Data or business analyst"
+10: "DevOps specialist"
+11: "Game or graphics developer"
+12: "Embedded applications or devices developer"
+13: "Product manager"
+14: "Designer"
+15: "Desktop or enterprise applications developer"
+16: "Engineering manager"
+17: "Marketing or sales professional"
+18: "QA or test developer"
+19: "Educator or academic researcher"
+20: "Database administrator"
+*/
+//let color ={'Front-end developer':"#3366cc",'Full-stack developer':"#DC3912"}
+
+
+function generateGraph(data){
+
+let color ={"Full-stack developer":"#3366CC", "Front-end developer":"#DC3912",  "Back-end developer":"#FF9900", "Mobile developer":"#109618", "Student":"#990099",
+   "System administrator":"#d9534f","C-suite executive (CEO, CTO, etc.)":"#f9f9f9","Data scientist or machine learning specialist":"#5bc0de","Data or business analyst":"#5cb85c",
+   "DevOps specialist":"#428bca","Game or graphics developer":"#1b85b8","Embedded applications or devices developer":"#5a5255","Product manager":"#559e83","Designer":"#ae5a41","Desktop or enterprise applications developer":"#c3cb71",
+   "Engineering manager": "#00aedb","Marketing or sales professional":"#a200ff","QA or test developer":"#f47835","Educator or academic researcher":"#f47835","Database administrator":"#a2798f"};
+let svg = d3.select("body").append("svg").attr("width", 1600).attr("height", 800);
+
+svg.append("text").attr("x",600).attr("y",70)
+	.attr("class","header").text("Developers vs Languages");
+
+
+// this positions where g's go. We have two here.
+let g =[svg.append("g").attr("transform","translate(400,100)")
+		,svg.append("g").attr("transform","translate(900,100)")];
+
+let bp=[ viz.bP()
+		.data(data)
+		.min(12)
+		.pad(3)
+		.height(650)
+		.width(300)
+		.barSize(30)
+		.fill(d=>color[d.primary])
+     /*
+        viz.bP()
+		.data(data)
+		.value(d=>d[3])
+		.min(12)
+		.pad(3)
+		.height(650)
+		.width(200)
+		.barSize(30)
+		.fill(d=>color[d.primary])
+		*/
+];
+
+[0].forEach(function(i){
+	g[i].call(bp[i]);
+
+	g[i].append("text").attr("x",-40).attr("y",-8).style("text-anchor","middle").text("Developer");
+	g[i].append("text").attr("x", 375).attr("y",-8).style("text-anchor","middle").text("Language");
+
+	g[i].append("line").attr("x1",-100).attr("x2",100);
+	g[i].append("line").attr("x1",275).attr("x2",450);
+
+	g[i].append("line").attr("y1",610).attr("y2",610).attr("x1",-100).attr("x2",0);
+	g[i].append("line").attr("y1",610).attr("y2",610).attr("x1",200).attr("x2",300);
+
+	g[i].selectAll(".mainBars")
+		.on("mouseover",mouseover)
+		.on("mouseout",mouseout);
+
+	g[i].selectAll(".mainBars").append("text").attr("class","label")
+		.attr("x",d=>(d.part=="primary"? -30: 30))
+		.attr("y",d=>+8)
+		.text(d=>d.key)
+		.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+
+	g[i].selectAll(".mainBars").append("text").attr("class","perc")
+		.attr("x",d=>(d.part=="primary"? -250: 150))
+		.attr("y",d=>+6)
+		.text(function(d){ return d3.format("0.0%")(d.percent)})
+		.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+});
+
+}
+
+function mouseover(d){
+	[0,1].forEach(function(i){
+		bp[i].mouseover(d);
+
+		g[i].selectAll(".mainBars").select(".perc")
+		.text(function(d){ return d3.format("0.0%")(d.percent)});
+	});
+}
+function mouseout(d){
+	[0,1].forEach(function(i){
+		bp[i].mouseout(d);
+
+		g[i].selectAll(".mainBars").select(".perc")
+		.text(function(d){ return d3.format("0.0%")(d.percent)});
+	});
+}
+d3.select(self.frameElement).style("height", "800px");
+
+</script>
+</body>
+</html>
