@@ -11,17 +11,7 @@ text{
   stroke: rgb(0, 0, 0);
   stroke-opacity: 0;
 }
-.subBars{
-	shape-rendering:crispEdges;
-}
-.edges{
-	stroke:none;
-	fill-opacity:0.5;
-}
-.header{
-	text-anchor:middle;
-	font-size:16px;
-}
+
 line{
 	stroke:grey;
 }
@@ -94,32 +84,6 @@ function convert(data){
 
 
 }
-
-
-/*
-0: "Magic row"
-1: "Full-stack developer"
-2: "Front-end developer"
-3: "Back-end developer"
-4: "Mobile developer"
-5: "Student"
-6: "System administrator"
-7: "C-suite executive (CEO, CTO, etc.)"
-8: "Data scientist or machine learning specialist"
-9: "Data or business analyst"
-10: "DevOps specialist"
-11: "Game or graphics developer"
-12: "Embedded applications or devices developer"
-13: "Product manager"
-14: "Designer"
-15: "Desktop or enterprise applications developer"
-16: "Engineering manager"
-17: "Marketing or sales professional"
-18: "QA or test developer"
-19: "Educator or academic researcher"
-20: "Database administrator"
-*/
-//let color ={'Front-end developer':"#3366cc",'Full-stack developer':"#DC3912"}
 
 
 function generateGraph(data){
@@ -349,6 +313,7 @@ var svg = d3.select("body").append("svg").attr("class","duck").attr("width", 800
             .attr("width", function(d) {return x(d.Percentage); } )
             .attr("y", function(d) { return y(d["Developer Type"]); })
             .attr("height", y.bandwidth())
+            .
         //    .attr("fill", function (d){ return color[d["Developer Type"]]; });
   }
 
