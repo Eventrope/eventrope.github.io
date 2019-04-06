@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca45ef5-e3c1-407b-888a-8d12099ae9ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Design4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Design3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Design4.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Design3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+            <state relative-caret-position="4830">
+              <caret line="210" selection-start-line="210" selection-end-line="210" />
             </state>
           </provider>
         </entry>
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Design4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
+            <state relative-caret-position="-2296">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -64,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Design2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2319">
+            <state relative-caret-position="2323">
               <caret line="101" column="1" lean-forward="true" selection-start-line="11" selection-end-line="101" selection-end-column="1" />
             </state>
           </provider>
@@ -113,6 +112,9 @@
       <find>consol</find>
       <find>console.log</find>
       <find>all</find>
+      <find>d3.csv</find>
+      <find>filter</find>
+      <find>datamap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,17 +136,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="726" />
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,18 +216,24 @@
       <workItem from="1553471070815" duration="1043000" />
       <workItem from="1553531216873" duration="257000" />
       <workItem from="1553635347378" duration="347000" />
-      <workItem from="1553642956385" duration="5201000" />
+      <workItem from="1553642956385" duration="8550000" />
+      <workItem from="1553797831362" duration="563000" />
+      <workItem from="1553806823407" duration="79000" />
+      <workItem from="1553987151319" duration="910000" />
+      <workItem from="1554156451316" duration="4375000" />
+      <workItem from="1554221824517" duration="12000" />
+      <workItem from="1554579434408" duration="953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7884000" />
+    <option name="totallyTimeSpent" value="18125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121212125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,10 +311,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Design3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data2.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2323">
+          <caret line="101" column="1" lean-forward="true" selection-start-line="11" selection-end-line="101" selection-end-column="1" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.csv">
@@ -336,24 +358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2319">
-          <caret line="101" column="1" lean-forward="true" selection-start-line="11" selection-end-line="101" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Design4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
+        <state relative-caret-position="-2296">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
